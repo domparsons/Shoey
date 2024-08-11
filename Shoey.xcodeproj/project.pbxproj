@@ -7,18 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC075F012B27964800ED1DCF /* HealthKitConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC075F002B27964800ED1DCF /* HealthKitConnectView.swift */; };
+		EC17305E2B13D9520009AB37 /* DateFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC17305D2B13D9520009AB37 /* DateFormatters.swift */; };
+		EC4E6DE92B05301600D0D3CC /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4E6DE82B05301600D0D3CC /* Workout.swift */; };
+		EC4FDCBB2B2607810017610B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4FDCBA2B2607810017610B /* SettingsView.swift */; };
+		EC597F7C2B015957006F489F /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC597F7B2B015957006F489F /* WorkoutView.swift */; };
+		EC597F7E2B015DB3006F489F /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC597F7D2B015DB3006F489F /* HealthKitManager.swift */; };
+		EC714B1F2B02868A005F2E8A /* ShoeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC714B1E2B02868A005F2E8A /* ShoeDetailView.swift */; };
+		EC772EFB2B318E87006E2E2D /* EditShoeSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC772EFA2B318E87006E2E2D /* EditShoeSheet.swift */; };
+		EC7E15D42B27AC4300A3C1D2 /* AuthoriseHKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7E15D32B27AC4300A3C1D2 /* AuthoriseHKView.swift */; };
+		EC7E15D62B27AC9400A3C1D2 /* LoadWorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7E15D52B27AC9400A3C1D2 /* LoadWorkoutsView.swift */; };
+		EC90A3F12B14B0DB00E39696 /* ShoeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90A3F02B14B0DB00E39696 /* ShoeListView.swift */; };
+		EC90A3F32B14B75200E39696 /* NewWorkoutsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90A3F22B14B75200E39696 /* NewWorkoutsSheet.swift */; };
 		EC9CE6C22B00E59D002560FB /* ShoeyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9CE6C12B00E59D002560FB /* ShoeyApp.swift */; };
 		EC9CE6C42B00E59D002560FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9CE6C32B00E59D002560FB /* ContentView.swift */; };
 		EC9CE6C62B00E59E002560FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9CE6C52B00E59E002560FB /* Assets.xcassets */; };
 		EC9CE6C92B00E59E002560FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9CE6C82B00E59E002560FB /* Preview Assets.xcassets */; };
+		ECA8BFAB2B01062100E225EA /* Shoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA8BFAA2B01062100E225EA /* Shoe.swift */; };
+		ECA8BFAD2B01079F00E225EA /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA8BFAC2B01079F00E225EA /* CircularProgressView.swift */; };
+		ECA8BFAF2B0117DF00E225EA /* NewShoeSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA8BFAE2B0117DF00E225EA /* NewShoeSheet.swift */; };
+		ECA8BFB12B011D2200E225EA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA8BFB02B011D2200E225EA /* ViewModel.swift */; };
+		ECC0A0A72B29AC1900562165 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC0A0A62B29AC1900562165 /* OnboardingView.swift */; };
+		ECE212552B264E39008D56A0 /* ShoeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE212542B264E39008D56A0 /* ShoeView.swift */; };
+		ECE8D47F2B136CFE00FF3559 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE8D47E2B136CFE00FF3559 /* Foundation.framework */; };
+		ECF0D2FF2B13F0F5002733AD /* RetiredShoesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF0D2FE2B13F0F5002733AD /* RetiredShoesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC075F002B27964800ED1DCF /* HealthKitConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitConnectView.swift; sourceTree = "<group>"; };
+		EC17305D2B13D9520009AB37 /* DateFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatters.swift; sourceTree = "<group>"; };
+		EC4E6DE82B05301600D0D3CC /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		EC4FDCBA2B2607810017610B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EC597F792B015121006F489F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EC597F7A2B015146006F489F /* Shoey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shoey.entitlements; sourceTree = "<group>"; };
+		EC597F7B2B015957006F489F /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		EC597F7D2B015DB3006F489F /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		EC714B1E2B02868A005F2E8A /* ShoeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeDetailView.swift; sourceTree = "<group>"; };
+		EC772EFA2B318E87006E2E2D /* EditShoeSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditShoeSheet.swift; sourceTree = "<group>"; };
+		EC7E15D32B27AC4300A3C1D2 /* AuthoriseHKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthoriseHKView.swift; sourceTree = "<group>"; };
+		EC7E15D52B27AC9400A3C1D2 /* LoadWorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadWorkoutsView.swift; sourceTree = "<group>"; };
+		EC90A3F02B14B0DB00E39696 /* ShoeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeListView.swift; sourceTree = "<group>"; };
+		EC90A3F22B14B75200E39696 /* NewWorkoutsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkoutsSheet.swift; sourceTree = "<group>"; };
 		EC9CE6BE2B00E59D002560FB /* Shoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9CE6C12B00E59D002560FB /* ShoeyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeyApp.swift; sourceTree = "<group>"; };
 		EC9CE6C32B00E59D002560FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC9CE6C52B00E59E002560FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC9CE6C82B00E59E002560FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC9D86A92B0163D500EA980B /* ShoeyRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShoeyRelease.entitlements; sourceTree = "<group>"; };
+		ECA8BFAA2B01062100E225EA /* Shoe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoe.swift; sourceTree = "<group>"; };
+		ECA8BFAC2B01079F00E225EA /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		ECA8BFAE2B0117DF00E225EA /* NewShoeSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewShoeSheet.swift; sourceTree = "<group>"; };
+		ECA8BFB02B011D2200E225EA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		ECC0A0A62B29AC1900562165 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		ECE212542B264E39008D56A0 /* ShoeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeView.swift; sourceTree = "<group>"; };
+		ECE8D47E2B136CFE00FF3559 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECF0D2FE2B13F0F5002733AD /* RetiredShoesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetiredShoesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +69,98 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE8D47F2B136CFE00FF3559 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC075EFC2B2792AB00ED1DCF /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EC4FDCBA2B2607810017610B /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EC075EFD2B2792C400ED1DCF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				ECA8BFAC2B01079F00E225EA /* CircularProgressView.swift */,
+				EC075F002B27964800ED1DCF /* HealthKitConnectView.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		EC075EFE2B2792CD00ED1DCF /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+				EC597F7B2B015957006F489F /* WorkoutView.swift */,
+				EC90A3F22B14B75200E39696 /* NewWorkoutsSheet.swift */,
+			);
+			path = Workout;
+			sourceTree = "<group>";
+		};
+		EC075EFF2B2792DE00ED1DCF /* Shoe */ = {
+			isa = PBXGroup;
+			children = (
+				ECE212542B264E39008D56A0 /* ShoeView.swift */,
+				EC90A3F02B14B0DB00E39696 /* ShoeListView.swift */,
+				ECF0D2FE2B13F0F5002733AD /* RetiredShoesView.swift */,
+				EC714B1E2B02868A005F2E8A /* ShoeDetailView.swift */,
+				ECA8BFAE2B0117DF00E225EA /* NewShoeSheet.swift */,
+				EC772EFA2B318E87006E2E2D /* EditShoeSheet.swift */,
+			);
+			path = Shoe;
+			sourceTree = "<group>";
+		};
+		EC17305C2B13D93F0009AB37 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EC17305D2B13D9520009AB37 /* DateFormatters.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		EC714B1A2B0285D3005F2E8A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC9CE6C32B00E59D002560FB /* ContentView.swift */,
+				EC075EFF2B2792DE00ED1DCF /* Shoe */,
+				EC075EFE2B2792CD00ED1DCF /* Workout */,
+				ECC0A0A82B29AC2600562165 /* Onboarding */,
+				EC075EFC2B2792AB00ED1DCF /* Settings */,
+				EC075EFD2B2792C400ED1DCF /* Other */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC714B1B2B0285E9005F2E8A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECA8BFAA2B01062100E225EA /* Shoe.swift */,
+				EC4E6DE82B05301600D0D3CC /* Workout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC714B1D2B02866A005F2E8A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECA8BFB02B011D2200E225EA /* ViewModel.swift */,
+				EC597F7D2B015DB3006F489F /* HealthKitManager.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		EC9CE6B52B00E59D002560FB = {
 			isa = PBXGroup;
 			children = (
+				EC9D86A92B0163D500EA980B /* ShoeyRelease.entitlements */,
 				EC9CE6C02B00E59D002560FB /* Shoey */,
 				EC9CE6BF2B00E59D002560FB /* Products */,
+				ECE8D47D2B136CFE00FF3559 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,7 +176,12 @@
 			isa = PBXGroup;
 			children = (
 				EC9CE6C12B00E59D002560FB /* ShoeyApp.swift */,
-				EC9CE6C32B00E59D002560FB /* ContentView.swift */,
+				EC714B1A2B0285D3005F2E8A /* Views */,
+				EC714B1D2B02866A005F2E8A /* Controllers */,
+				EC714B1B2B0285E9005F2E8A /* Models */,
+				EC17305C2B13D93F0009AB37 /* Other */,
+				EC597F7A2B015146006F489F /* Shoey.entitlements */,
+				EC597F792B015121006F489F /* Info.plist */,
 				EC9CE6C52B00E59E002560FB /* Assets.xcassets */,
 				EC9CE6C72B00E59E002560FB /* Preview Content */,
 			);
@@ -65,6 +194,24 @@
 				EC9CE6C82B00E59E002560FB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECC0A0A82B29AC2600562165 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				ECC0A0A62B29AC1900562165 /* OnboardingView.swift */,
+				EC7E15D32B27AC4300A3C1D2 /* AuthoriseHKView.swift */,
+				EC7E15D52B27AC9400A3C1D2 /* LoadWorkoutsView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		ECE8D47D2B136CFE00FF3559 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECE8D47E2B136CFE00FF3559 /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +284,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC4FDCBB2B2607810017610B /* SettingsView.swift in Sources */,
+				EC075F012B27964800ED1DCF /* HealthKitConnectView.swift in Sources */,
+				ECA8BFAF2B0117DF00E225EA /* NewShoeSheet.swift in Sources */,
+				ECF0D2FF2B13F0F5002733AD /* RetiredShoesView.swift in Sources */,
+				ECE212552B264E39008D56A0 /* ShoeView.swift in Sources */,
+				ECA8BFAB2B01062100E225EA /* Shoe.swift in Sources */,
+				EC597F7E2B015DB3006F489F /* HealthKitManager.swift in Sources */,
+				EC772EFB2B318E87006E2E2D /* EditShoeSheet.swift in Sources */,
+				EC4E6DE92B05301600D0D3CC /* Workout.swift in Sources */,
+				EC90A3F32B14B75200E39696 /* NewWorkoutsSheet.swift in Sources */,
+				EC17305E2B13D9520009AB37 /* DateFormatters.swift in Sources */,
+				EC714B1F2B02868A005F2E8A /* ShoeDetailView.swift in Sources */,
 				EC9CE6C42B00E59D002560FB /* ContentView.swift in Sources */,
+				ECA8BFAD2B01079F00E225EA /* CircularProgressView.swift in Sources */,
+				ECC0A0A72B29AC1900562165 /* OnboardingView.swift in Sources */,
+				EC90A3F12B14B0DB00E39696 /* ShoeListView.swift in Sources */,
+				ECA8BFB12B011D2200E225EA /* ViewModel.swift in Sources */,
+				EC7E15D62B27AC9400A3C1D2 /* LoadWorkoutsView.swift in Sources */,
+				EC597F7C2B015957006F489F /* WorkoutView.swift in Sources */,
+				EC7E15D42B27AC4300A3C1D2 /* AuthoriseHKView.swift in Sources */,
 				EC9CE6C22B00E59D002560FB /* ShoeyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,12 +435,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Shoey/Shoey.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Shoey/Preview Content\"";
 				DEVELOPMENT_TEAM = HYFCKS2YZ3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shoey/Info.plist;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Health access allows Shoey to import your workouts so you can seemlessly link them to your saved shoes";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Health access allows Shoey to import your workouts so you can seemlessly link them to your saved shoes";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Health access allows Shoey to import your workouts so you can seemlessly link them to your saved shoes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -287,6 +459,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.domparsons.Shoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,12 +471,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Shoey/ShoeyRelease.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Shoey/Preview Content\"";
 				DEVELOPMENT_TEAM = HYFCKS2YZ3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shoey/Info.plist;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Health access allows Shoey to import your workouts so you can seemlessly link them to your saved shoes";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Health access allows Shoey to import your workouts so you can seemlessly link them to your saved shoes";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Health access allows Shoey to import your workouts so you can seemlessly link them to your saved shoes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +495,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.domparsons.Shoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
