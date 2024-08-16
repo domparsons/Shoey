@@ -21,7 +21,7 @@ struct ContentView: View {
     @Query(sort: \Workout.dateAndTime, order: .reverse) var savedWorkouts: [Workout]
     
     @State private var tabSelection = 1
-    
+    // some new features
     var body: some View {
         ZStack {
             if UserDefaults.standard.bool(forKey: "onboardingComplete") {
